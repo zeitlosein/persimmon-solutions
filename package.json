@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Web & Software Development Company",
   "main": "index.js",
+  "homepage": "https://zeitlosein.github.io/persimmon-solutions",
   "scripts": {
+    "deploy": "gh-pages -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nikolas Smith",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
